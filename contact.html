@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Get in Touch | An Noor Packaging Industries</title>
+    <meta
+      name="description"
+      content="Contact An Noor Packaging Industries for your packaging needs. Get a quote, request samples, or discuss your custom packaging requirements."
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/png" href="images/logo-icon.png" />
+  </head>
+  <body>
+    <!-- ==========================================
+     NAVBAR
+     ========================================== -->
+    <nav id="mainNav">
+      <div class="container-xl">
+        <div class="navbar-inner">
+          <!-- Logo -->
+          <a href="index.html" class="navbar-logo">
+            <img
+              src="images/logo-icon.png"
+              alt="An Noor Icon"
+              class="logo-icon"
+            />
+          </a>
+
+          <!-- Desktop Nav Links -->
+          <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="nav-dropdown">
+              <a href="products.html"
+                >Products & Solutions <i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="dropdown-menu">
+                <a href="carton.html" class="dropdown-item">
+                  <i class="bi bi-box-seam"></i> Carton
+                </a>
+                <a href="poly.html" class="dropdown-item">
+                  <i class="bi bi-bag"></i> Poly
+                </a>
+                <a href="gum-tape.html" class="dropdown-item">
+                  <i class="bi bi-sticky"></i> Gum Tape
+                </a>
+                <a href="elastic.html" class="dropdown-item">
+                  <i class="bi bi-arrows-expand"></i> Elastic
+                </a>
+                <a href="twill-tape.html" class="dropdown-item">
+                  <i class="bi bi-rulers"></i> Twill Tape
+                </a>
+                <a href="drawcord.html" class="dropdown-item">
+                  <i class="bi bi-bezier2"></i> Drawcord
+                </a>
+                <a href="velcro.html" class="dropdown-item">
+                  <i class="bi bi-paperclip"></i> Velcro
+                </a>
+                <a href="leather.html" class="dropdown-item">
+                  <i class="bi bi-patch-check"></i> Leather
+                </a>
+                <a href="sticker-tags-label.html" class="dropdown-item">
+                  <i class="bi bi-tag"></i> Sticker, Tags & Label
+                </a>
+              </div>
+            </li>
+            <li><a href="index.html#sustainability">Sustainability</a></li>
+            <li><a href="machinery.html">Machinery</a></li>
+            <li><a href="index.html#clients">Clients</a></li>
+            <li><a href="index.html#news">News</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+
+          <!-- Actions -->
+          <div class="navbar-actions">
+            <a href="quote.html" class="btn-gold d-none d-lg-inline-flex">
+              <i class="bi bi-envelope-fill"></i> Get Quote
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Backdrop -->
+    <div class="mobile-menu-backdrop" id="menuBackdrop"></div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">
+        &times;
+      </button>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <div class="mobile-dropdown">
+        <a href="products.html" class="mobile-dropdown-toggle"
+          >Products & Solutions <i class="bi bi-chevron-down"></i
+        ></a>
+        <div class="mobile-dropdown-menu">
+          <a href="carton.html">Carton</a>
+          <a href="poly.html">Poly</a>
+          <a href="gum-tape.html">Gum Tape</a>
+          <a href="elastic.html">Elastic</a>
+          <a href="twill-tape.html">Twill Tape</a>
+          <a href="drawcord.html">Drawcord</a>
+          <a href="velcro.html">Velcro</a>
+          <a href="leather.html">Leather</a>
+          <a href="sticker-tags-label.html">Sticker, Tags & Label</a>
+        </div>
+      </div>
+      <a href="index.html#sustainability">Sustainability</a>
+      <a href="machinery.html">Machinery</a>
+      <a href="index.html#clients">Clients</a>
+      <a href="index.html#news">News</a>
+      <a href="contact.html">Contact</a>
+      <a href="quote.html" class="btn-gold mt-3 justify-content-center">
+        <i class="bi bi-envelope-fill"></i> Get a Quote
+      </a>
+    </div>
+
+    <!-- ==========================================
+     BREADCRUMB
+     ========================================== -->
+    <section class="breadcrumb-section">
+      <div class="container-xl">
+        <div class="breadcrumb-inner">
+          <h1 class="breadcrumb-title">Contact Us</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb-nav">
+              <li>
+                <a href="index.html"
+                  ><i class="bi bi-house-door-fill"></i> Home</a
+                >
+              </li>
+              <li class="separator">/</li>
+              <li class="active">Contact</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     CONTACT SECTION
+     ========================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container-xl">
+        <div class="row align-items-start g-5">
+          <!-- Contact Info Column -->
+          <div class="col-lg-5" data-anim="left">
+            <span class="section-label">Get in Touch</span>
+            <h2 class="section-title contact-section-title">
+              Ready to Start Your Next Packaging Project?
+            </h2>
+            <p class="contact-intro">
+              Share your requirements and our team will respond within 24 hours
+              with a detailed quote and sample options.
+            </p>
+
+            <!-- Contact Details -->
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h5 class="contact-info-title">Our Location</h5>
+                  <p class="contact-info-text">
+                    123 Industrial Zone, Ashulia, Savar, Dhaka — 1349,
+                    Bangladesh
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div>
+                  <h5 class="contact-info-title">Phone Numbers</h5>
+                  <p class="contact-info-text">
+                    +880 1700-000000<br />
+                    +880 1800-000000
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div>
+                  <h5 class="contact-info-title">Email Address</h5>
+                  <p class="contact-info-text">info@annoorpackaging.com</p>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-clock-fill"></i>
+                </div>
+                <div>
+                  <h5 class="contact-info-title">Business Hours</h5>
+                  <p class="contact-info-text">
+                    Sunday – Thursday: 8:00 AM – 6:00 PM (BST)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div>
+              <h5 class="contact-social-title">Follow Us</h5>
+              <div class="contact-social-links">
+                <a href="#" class="social-link" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="YouTube"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="WhatsApp"
+                  ><i class="bi bi-whatsapp"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="col-lg-7" data-anim="right">
+            <div class="contact-form-wrapper">
+              <h3 class="contact-form-title">Send Us an Enquiry</h3>
+              <p class="contact-form-subtitle">
+                Fill out the form below and we'll get back to you within 24
+                hours.
+              </p>
+
+              <form>
+                <div class="form-grid">
+                  <div class="form-row">
+                    <div>
+                      <label class="form-label">Your Name *</label>
+                      <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Full Name"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label class="form-label">Company Name</label>
+                      <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Company Name"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div>
+                      <label class="form-label">Email Address *</label>
+                      <input
+                        type="email"
+                        class="form-input"
+                        placeholder="your@email.com"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label class="form-label">Phone Number</label>
+                      <input
+                        type="tel"
+                        class="form-input"
+                        placeholder="+880 1700-000000"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label class="form-label">Product Interest</label>
+                    <select class="form-select">
+                      <option value="">Select Product Category</option>
+                      <option value="boxes">Packaging Boxes</option>
+                      <option value="labels">Labels &amp; Tags</option>
+                      <option value="polybags">Poly Bags</option>
+                      <option value="printing">Custom Printing</option>
+                      <option value="eco">Eco Packaging</option>
+                      <option value="adhesive">Adhesive Solutions</option>
+                      <option value="woven">Woven Labels</option>
+                      <option value="tags">Swing Tags</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label class="form-label">Estimated Quantity</label>
+                    <input
+                      type="text"
+                      class="form-input"
+                      placeholder="e.g., 10,000 units"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="form-label">Your Message *</label>
+                    <textarea
+                      rows="5"
+                      class="form-textarea"
+                      placeholder="Tell us about your requirements, quantities, and timeline..."
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="btn-gold form-submit">
+                    Send Enquiry <i class="bi bi-send-fill"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     MAP SECTION
+     ========================================== -->
+    <section class="map-section">
+      <div class="map-placeholder">
+        <div class="map-placeholder-content">
+          <i class="bi bi-geo-alt-fill map-placeholder-icon"></i>
+          <p class="map-placeholder-text">
+            Google Maps Integration<br />
+            <span class="map-placeholder-subtext"
+              >Replace with actual map embed code</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     QUICK STATS STRIP
+     ========================================== -->
+    <section class="quick-stats-section">
+      <div class="container-xl">
+        <div class="row text-center g-4">
+          <div class="col-md-3 col-6">
+            <div class="stat-box">
+              <i class="bi bi-clock-history stat-icon"></i>
+              <div class="stat-number">24 Hours</div>
+              <div class="stat-label">Response Time</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="stat-box">
+              <i class="bi bi-headset stat-icon"></i>
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">Customer Support</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="stat-box">
+              <i class="bi bi-globe2 stat-icon"></i>
+              <div class="stat-number">20+</div>
+              <div class="stat-label">Countries Served</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="stat-box">
+              <i class="bi bi-patch-check-fill stat-icon"></i>
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Quality Guaranteed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     FOOTER
+     ========================================== -->
+    <footer class="footer">
+      <div class="container-xl">
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-brand">
+            <div class="logo-wrap">
+              <img
+                src="images/logo-icon.png"
+                alt="An Noor Icon"
+                class="logo-img-icon"
+              />
+              <img
+                src="images/logo-text.png"
+                alt="An Noor Packaging"
+                class="logo-img-text"
+              />
+            </div>
+            <p>
+              An Noor Packaging Industries is a leading Bangladesh-based
+              manufacturer and global exporter of premium packaging solutions —
+              serving fashion and retail brands across 20+ countries since 2008.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="YouTube"
+                ><i class="bi bi-youtube"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="WhatsApp"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h5>Quick Links</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="index.html"
+                  ><i class="bi bi-chevron-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="about.html"
+                  ><i class="bi bi-chevron-right"></i> About Us</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Products</a
+                >
+              </li>
+              <li>
+                <a href="index.html#solutions"
+                  ><i class="bi bi-chevron-right"></i> Solutions</a
+                >
+              </li>
+              <li>
+                <a href="index.html#sustainability"
+                  ><i class="bi bi-chevron-right"></i> Sustainability</a
+                >
+              </li>
+              <li>
+                <a href="machinery.html"
+                  ><i class="bi bi-chevron-right"></i> Machinery</a
+                >
+              </li>
+              <li>
+                <a href="index.html#certs"
+                  ><i class="bi bi-chevron-right"></i> Certifications</a
+                >
+              </li>
+              <li>
+                <a href="index.html#clients"
+                  ><i class="bi bi-chevron-right"></i> Our Clients</a
+                >
+              </li>
+              <li>
+                <a href="index.html#news"
+                  ><i class="bi bi-chevron-right"></i> News</a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="bi bi-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="footer-col">
+            <h5>Our Products</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Packaging Boxes</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Labels &amp; Tags</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Poly Bags</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Custom Printing</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Eco Packaging</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Adhesive Solutions</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Woven Labels</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Swing Tags</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact + Newsletter -->
+          <div class="footer-col">
+            <h5>Contact Info</h5>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt-fill contact-item-icon"></i>
+              <span
+                >123 Industrial Zone, Ashulia, Savar, Dhaka — 1349,
+                Bangladesh</span
+              >
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone-fill contact-item-icon"></i>
+              <span>+880 1700-000000</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-envelope-fill contact-item-icon"></i>
+              <span>info@annoorpackaging.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-clock-fill contact-item-icon"></i>
+              <span>Sun–Thu: 8:00 AM – 6:00 PM</span>
+            </div>
+
+            <div class="newsletter-container">
+              <h5 class="newsletter-title">Newsletter</h5>
+              <div class="newsletter-input-wrap">
+                <input type="email" placeholder="Your email address" />
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /footer-grid -->
+
+        <div class="footer-bottom">
+          <span>© 2025 An Noor Packaging Industries. All rights reserved.</span>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" aria-label="Scroll to top">
+      <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

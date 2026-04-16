@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Our Story | An Noor Packaging Industries</title>
+    <meta
+      name="description"
+      content="Learn about An Noor Packaging Industries - our story, vision, and mission to deliver sustainable packaging solutions since 2008."
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/png" href="images/logo-icon.png" />
+  </head>
+  <body>
+    <!-- ==========================================
+     NAVBAR
+     ========================================== -->
+    <nav id="mainNav">
+      <div class="container-xl">
+        <div class="navbar-inner">
+          <!-- Logo -->
+          <a href="index.html" class="navbar-logo">
+            <img
+              src="images/logo-icon.png"
+              alt="An Noor Icon"
+              class="logo-icon"
+            />
+          </a>
+
+          <!-- Desktop Nav Links -->
+          <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li class="nav-dropdown">
+              <a href="products.html"
+                >Products & Solutions <i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="dropdown-menu">
+                <a href="carton.html" class="dropdown-item">
+                  <i class="bi bi-box-seam"></i> Carton
+                </a>
+                <a href="poly.html" class="dropdown-item">
+                  <i class="bi bi-bag"></i> Poly
+                </a>
+                <a href="gum-tape.html" class="dropdown-item">
+                  <i class="bi bi-sticky"></i> Gum Tape
+                </a>
+                <a href="elastic.html" class="dropdown-item">
+                  <i class="bi bi-arrows-expand"></i> Elastic
+                </a>
+                <a href="twill-tape.html" class="dropdown-item">
+                  <i class="bi bi-rulers"></i> Twill Tape
+                </a>
+                <a href="drawcord.html" class="dropdown-item">
+                  <i class="bi bi-bezier2"></i> Drawcord
+                </a>
+                <a href="velcro.html" class="dropdown-item">
+                  <i class="bi bi-paperclip"></i> Velcro
+                </a>
+                <a href="leather.html" class="dropdown-item">
+                  <i class="bi bi-patch-check"></i> Leather
+                </a>
+                <a href="sticker-tags-label.html" class="dropdown-item">
+                  <i class="bi bi-tag"></i> Sticker, Tags & Label
+                </a>
+              </div>
+            </li>
+            <li><a href="index.html#sustainability">Sustainability</a></li>
+            <li><a href="machinery.html">Machinery</a></li>
+            <li><a href="index.html#clients">Clients</a></li>
+            <li><a href="index.html#news">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <!-- Actions -->
+          <div class="navbar-actions">
+            <a href="quote.html" class="btn-gold d-none d-lg-inline-flex">
+              <i class="bi bi-envelope-fill"></i> Get Quote
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Backdrop -->
+    <div class="mobile-menu-backdrop" id="menuBackdrop"></div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">
+        &times;
+      </button>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <div class="mobile-dropdown">
+        <a href="products.html" class="mobile-dropdown-toggle"
+          >Products & Solutions <i class="bi bi-chevron-down"></i
+        ></a>
+        <div class="mobile-dropdown-menu">
+          <a href="carton.html">Carton</a>
+          <a href="poly.html">Poly</a>
+          <a href="gum-tape.html">Gum Tape</a>
+          <a href="elastic.html">Elastic</a>
+          <a href="twill-tape.html">Twill Tape</a>
+          <a href="drawcord.html">Drawcord</a>
+          <a href="velcro.html">Velcro</a>
+          <a href="leather.html">Leather</a>
+          <a href="sticker-tags-label.html">Sticker, Tags & Label</a>
+        </div>
+      </div>
+      <a href="index.html#sustainability">Sustainability</a>
+      <a href="machinery.html">Machinery</a>
+      <a href="index.html#clients">Clients</a>
+      <a href="index.html#news">News</a>
+      <a href="contact.html">Contact</a>
+      <a href="quote.html" class="btn-gold mt-3 justify-content-center">
+        <i class="bi bi-envelope-fill"></i> Get a Quote
+      </a>
+    </div>
+
+    <!-- ==========================================
+     BREADCRUMB
+     ========================================== -->
+    <section class="breadcrumb-section">
+      <div class="container-xl">
+        <div class="breadcrumb-inner">
+          <h1 class="breadcrumb-title">About Us</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb-nav">
+              <li>
+                <a href="index.html"
+                  ><i class="bi bi-house-door-fill"></i> Home</a
+                >
+              </li>
+              <li class="separator">/</li>
+              <li class="active">About Us</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     OUR STORY - SUSTAINABILITY COMMITMENT
+     ========================================== -->
+    <section class="story-section">
+      <div class="container-xl">
+        <div class="row align-items-center g-lg-5 g-4">
+          <!-- Image Column -->
+          <div class="col-lg-5" data-anim="left">
+            <div class="story-img-wrap">
+              <div class="story-img-placeholder">
+                <i class="bi bi-building"></i>
+                <span>32,000 Sq Ft Manufacturing Facility</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Column -->
+          <div class="col-lg-7" data-anim="right">
+            <h2 class="about-heading">
+              Committed to a<br />Sustainable Future
+            </h2>
+            <p class="about-text">
+              Since 2008, An Noor Packaging & An Noor Trims has been at the
+              forefront of sustainable packaging innovation. Equipped with
+              state-of-the-art machinery from Taiwan, Germany, China, and India,
+              we combine environmental responsibility with exceptional quality
+              standards.
+            </p>
+            <p class="about-text">
+              Our dedicated team of 150+ skilled professionals brings extensive
+              industry knowledge and technical expertise to every project. We
+              understand the evolving needs of the global apparel, textile, and
+              retail industries — delivering flexible services, premium
+              products, competitive lead times, and market-responsive solutions.
+            </p>
+            <p class="about-text">
+              Operating from our 32,000 sq ft manufacturing facility in
+              Bangladesh with a production capacity of 2,500 M.T. per year, we
+              serve leading brands across USA, Canada, and Europe. As a proud
+              member of BGAPMEA, we are committed to building lasting
+              partnerships founded on trust, innovation, and unwavering quality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     FULL WIDTH VIDEO/IMAGE SECTION
+     
+     INSTRUCTIONS:
+     - To use YouTube: Update the VIDEO_ID in the iframe src below
+     - To use your own video file: Comment out iframe, uncomment Option 3
+     - To use image: Comment out iframe, uncomment Option 2
+     ========================================== -->
+    <section class="fullwidth-media">
+      <div class="fullwidth-media-inner">
+        <!-- YouTube/Vimeo Embed (ACTIVE - Replace YOUR_VIDEO_ID with actual ID) -->
+        <iframe
+          class="fullwidth-media-video"
+          src="https://www.youtube.com/embed/DojuFOrYcsk?si=KlPSxoWr94-NAA3c"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+          "
+          allowfullscreen
+        >
+        </iframe>
+
+        <!-- Option 2: Regular Image (uncomment to use image instead) -->
+        <!-- <img src="images/facility.jpg" alt="Company Facility" class="fullwidth-media-img" /> -->
+
+        <!-- Option 3: Self-hosted Video (uncomment to use your own video file) -->
+        <!-- <video class="fullwidth-media-video" controls muted loop playsinline>
+      <source src="videos/company-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video> -->
+
+        <!-- Placeholder (auto-hidden when media is active) -->
+        <div class="fullwidth-media-placeholder">
+          <i class="bi bi-tree-fill"></i>
+          <span>Our Commitment to Environmental Sustainability</span>
+        </div>
+
+        <!-- Overlay Content (optional - shows over image/video) -->
+        <!-- Uncomment to show text overlay -->
+        <!-- <div class="fullwidth-media-overlay">
+      <h3>Sustainable Operations</h3>
+      <p>Our Commitment to Environmental Sustainability</p>
+    </div> -->
+      </div>
+    </section>
+
+    <!-- ==========================================
+     OUR VISION
+     ========================================== -->
+    <section class="about-block">
+      <div class="container-xl">
+        <div class="row align-items-center g-lg-5 g-4">
+          <!-- Text Column -->
+          <div class="col-lg-6 order-lg-1 order-2" data-anim="left">
+            <h2 class="about-heading green">Our Vision</h2>
+            <p class="about-text">
+              To be recognized worldwide as the foremost provider of sustainable
+              packaging solutions, setting industry standards for innovation,
+              quality, and environmental stewardship.
+            </p>
+            <p class="about-text about-text-extra">
+              We envision a future where every package tells a story of
+              responsibility — protecting products while preserving our planet
+              for generations to come.
+            </p>
+          </div>
+
+          <!-- Image Column -->
+          <div class="col-lg-6 order-lg-2 order-1" data-anim="right">
+            <div class="about-img-wrap">
+              <div class="about-img-placeholder vision-ph">
+                <i class="bi bi-globe-americas"></i>
+                <span>Global Packaging Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     OUR MISSION
+     ========================================== -->
+    <section class="about-block">
+      <div class="container-xl">
+        <div class="row align-items-center g-lg-5 g-4">
+          <!-- Image Column -->
+          <div class="col-lg-5" data-anim="left">
+            <div class="about-img-wrap">
+              <div class="about-img-placeholder mission-ph">
+                <div class="mission-badge">
+                  <span class="mission-badge-text">MISSION</span>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Column -->
+          <div class="col-lg-7" data-anim="right">
+            <h2 class="about-heading green">Our Mission</h2>
+            <p class="about-text">
+              To deliver comprehensive, eco-friendly packaging solutions that
+              exceed global quality standards while minimizing environmental
+              impact.
+            </p>
+            <p class="about-text about-text-extra">
+              We achieve this through customer-centric partnerships, continuous
+              innovation, operational excellence, and an unwavering commitment
+              to sustainability. Our mission is to be the trusted packaging
+              partner that helps brands showcase their products responsibly and
+              beautifully.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     FOOTER
+     ========================================== -->
+    <footer class="footer">
+      <div class="container-xl">
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-brand">
+            <div class="logo-wrap">
+              <img
+                src="images/logo-icon.png"
+                alt="An Noor Icon"
+                class="logo-img-icon"
+              />
+            </div>
+            <p>
+              An Noor Packaging Industries is a leading Bangladesh-based
+              manufacturer and global exporter of premium packaging solutions —
+              serving fashion and retail brands across 20+ countries since 2008.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="YouTube"
+                ><i class="bi bi-youtube"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="WhatsApp"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h5>Quick Links</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="index.html"
+                  ><i class="bi bi-chevron-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="about.html"
+                  ><i class="bi bi-chevron-right"></i> About Us</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Products</a
+                >
+              </li>
+              <li>
+                <a href="index.html#solutions"
+                  ><i class="bi bi-chevron-right"></i> Solutions</a
+                >
+              </li>
+              <li>
+                <a href="index.html#sustainability"
+                  ><i class="bi bi-chevron-right"></i> Sustainability</a
+                >
+              </li>
+              <li>
+                <a href="machinery.html"
+                  ><i class="bi bi-chevron-right"></i> Machinery</a
+                >
+              </li>
+              <li>
+                <a href="index.html#certs"
+                  ><i class="bi bi-chevron-right"></i> Certifications</a
+                >
+              </li>
+              <li>
+                <a href="index.html#clients"
+                  ><i class="bi bi-chevron-right"></i> Our Clients</a
+                >
+              </li>
+              <li>
+                <a href="index.html#news"
+                  ><i class="bi bi-chevron-right"></i> News</a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="bi bi-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="footer-col">
+            <h5>Our Products</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Packaging Boxes</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Labels &amp; Tags</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Poly Bags</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Custom Printing</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Eco Packaging</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Adhesive Solutions</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Woven Labels</a
+                >
+              </li>
+              <li>
+                <a href="index.html#products"
+                  ><i class="bi bi-chevron-right"></i> Swing Tags</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact + Newsletter -->
+          <div class="footer-col">
+            <h5>Contact Info</h5>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt-fill contact-item-icon"></i>
+              <span
+                >123 Industrial Zone, Ashulia, Savar, Dhaka — 1349,
+                Bangladesh</span
+              >
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone-fill contact-item-icon"></i>
+              <span>+880 1700-000000</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-envelope-fill contact-item-icon"></i>
+              <span>info@annoorpackaging.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-clock-fill contact-item-icon"></i>
+              <span>Sun–Thu: 8:00 AM – 6:00 PM</span>
+            </div>
+
+            <div class="newsletter-container">
+              <h5 class="newsletter-title">Newsletter</h5>
+              <div class="newsletter-input-wrap">
+                <input type="email" placeholder="Your email address" />
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /footer-grid -->
+
+        <div class="footer-bottom">
+          <span>© 2025 An Noor Packaging Industries. All rights reserved.</span>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" aria-label="Scroll to top">
+      <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
